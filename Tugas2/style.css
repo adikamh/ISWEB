@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4D83AA;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 800px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: none;
+}
+
+.main-header {
+    background-color: #E2D800;
+    background-image: radial-gradient(#4D83AA 50%, transparent 50%);
+    background-size: 15px 15px;
+    background-repeat: repeat-x;
+    background-position: center -3px; 
+    padding: 25px 10px 10px 20px;
+    border-bottom: 2px dashed #032152;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-header h1 {
+    color: #032152;
+    font-size: 28px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-right: 2px dotted #032152;
+    border-bottom-left-radius: 10px;
+}
+
+.sidebar h3 {
+    color: #032152;
+    border-bottom: 2px dotted #032152;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #4D83AA;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.main-content {
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    min-height: 400px; 
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.main-content h2 {
+    color: #032152;
+    margin-bottom: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #9CBCD0;
+    color: white;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #032152;
+    padding: 12px;
+}
+
+.data-table td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.data-table tfoot td {
+    background-color: white;
+    color: #333;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #032152;
+}
