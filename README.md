@@ -19,9 +19,3 @@ Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang d
 ## Catatan Khusus
 - File `week3/kuisWeek3.html` memiliki counter yang disimpan menggunakan `localStorage`. Nilai counter akan tetap ada setelah browser ditutup atau halaman direfresh.
 - Untuk mereset nilai counter, buka DevTools pada browser dan hapus key `angka` pada `localStorage`, atau saya bisa tambahkan tombol reset jika Anda mau.
-
-## Lisensi
-Lihat file `LICENSE` untuk informasi lisensi proyek.
-
----
-Jika Anda ingin saya menambahkan instruksi lebih lengkap, tombol reset, atau dokumentasi lain, beri tahu saya.
