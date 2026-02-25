@@ -1,0 +1,37 @@
+
+<!--saya mengerjakan tugas ini sendiri tanpa melakukan kecurangan seperti menggunakan, 
+mendupliaksi kode perogram kode program yang ada. jia saya melakukan kecurangan dalam 
+perngerjaan tugas ini maka saya siap menerima sanksi atau hukuman dari dari dosen mata 
+kuliah dan tuhan / allah  swt-->
+
+<!--Referensi
+- https://stackoverflow.com/questions/3888902/detect-browser-or-tab-closing
+- https://sko.dev/snippet/cara-membuat-button-di-javascript/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Counter Persisten</title>
+</head>
+<body>
+    <h2 id="angka">You have clicked the button <span id="display_angka">0</span> time(s) in this session</h2>
+    <button id="buton" onclick="tambah()">Click me!</button>
+    
+    <h2>Click the button to see the counter increase.</h2>
+    <h2>Close the browser tab (or window), and try again, and the counter is not reset</h2>
+
+    <script>
+        let angka = localStorage.getItem("simpananAngka") || 0;
+        document.getElementById("display_angka").innerHTML = angka;
+
+        function tambah() {
+            angka++;
+            document.getElementById("display_angka").innerHTML = angka;
+            localStorage.setItem("simpananAngka", angka);
+        }
+    </script>
+</body>
+</html>
