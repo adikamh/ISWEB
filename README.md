@@ -7,14 +7,6 @@ Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang d
 
 ## Cara Menjalankan
 - Buka file HTML langsung di browser dengan double-click (mis. buka [week3/kuisWeek3.html](week3/kuisWeek3.html)).
-- Untuk menjalankan dari server lokal (opsional), jalankan di direktori proyek:
-
-```bash
-# Python 3
-python -m http.server 8000
-```
-
-Lalu buka http://localhost:8000 di browser.
 
 ## Struktur Folder (ringkas)
 - `Tugas2/` - berisi tugas 2 dan stylesheet terkait
