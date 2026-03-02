@@ -4,7 +4,8 @@ Repositori ini berisi kumpulan tugas dan kuis untuk mata kuliah Sistem Informasi
 
 ## Deskripsi
 Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang dibuat untuk latihan perkuliahan.
-
+- Bisa berisi Tugaws dikelas.
+- Ataupun Tugas rumah (Take home).
 ## Cara Menjalankan
 - Buka file HTML langsung di browser dengan double-click (mis. buka [week3/kuisWeek3.html](week3/kuisWeek3.html)).
 
@@ -15,6 +16,10 @@ Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang d
 	- `style.css`, `style2.css`
 - `week3/` - kuis dan latihan week 3
 	- `kuisWeek3.html`
+- `Tugas3/` - berisi tugas 3 dan isinya
+	- `index.html`
+	- `style.css`
+	- `scrpit.js`
 
 ## Catatan Khusus
 - File `week3/kuisWeek3.html` memiliki counter yang disimpan menggunakan `localStorage`. Nilai counter akan tetap ada setelah browser ditutup atau halaman direfresh.
