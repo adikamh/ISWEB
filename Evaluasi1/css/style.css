@@ -1,0 +1,8 @@
+body {
+    background-image: url('../assets/Logo_itenas.jpg');
+    background-repeat: repeat;
+    background-size: 150px;
+    margin: 0;
+    padding: 0;
+    height: 140vh;
+}
