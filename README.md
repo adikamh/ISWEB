@@ -1,9 +1,11 @@
 # ISWEB
+Nama : Adika Muhammad Haikal
+NRP	 : 162023010
 
 Repositori ini berisi kumpulan tugas dan kuis untuk mata kuliah Sistem Informasi Web (SIWEB).
 
 ## Deskripsi
-Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang dibuat untuk latihan perkuliahan.
+Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript/jquery yang dibuat untuk latihan perkuliahan.
 - Bisa berisi Tugaws dikelas.
 - Ataupun Tugas rumah (Take home).
 ## Cara Menjalankan
