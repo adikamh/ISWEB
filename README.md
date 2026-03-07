@@ -20,6 +20,17 @@ Proyek ini berisi beberapa tugas dan latihan berbasis HTML/CSS/JavaScript yang d
 	- `index.html`
 	- `style.css`
 	- `scrpit.js`
+- `Evaluasi1/` - evaluasi 1 pake jquery
+	- `index.html` - kerangka doang
+	- `js/`
+		- `jquery-function.js` - berisi kode jquery
+		- `jquery.min.js` - agar library jquery bisa diakses
+		- `vanila-function.js` - fungsi murni javascript
+	- `css/`
+		- `style.css` - tamplian doang
+	- `assets/`
+		- `bacgroung.jpg` - gambar gedung itenas yang didepan
+		- `Logo_itenas.jpg` - logo itenas buat background
 
 ## Catatan Khusus
 - File `week3/kuisWeek3.html` memiliki counter yang disimpan menggunakan `localStorage`. Nilai counter akan tetap ada setelah browser ditutup atau halaman direfresh.
