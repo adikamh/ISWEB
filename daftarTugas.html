@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Tugas SIWEB - Adika</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .profile-card {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .task-item {
+            background: var(--card);
+            text-decoration: none;
+            color: inherit;
+            padding: 18px 25px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+
+        .task-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+
+        .task-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .task-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .task-folder {
+            font-size: 0.85rem;
+            color: var(--secondary);
+            font-family: monospace;
+        }
+
+        .status-badge {
+            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: #dbeafe;
+            color: #1e40af;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>SIWEB Portal</h1>
+        <p>Kumpulan Praktikum Sistem Informasi Web</p>
+    </header>
+
+    <div class="profile-card">
+        <div style="font-weight: bold; font-size: 1.2rem;">Adika Muhammad Haikal</div>
+        <div style="color: var(--secondary);">NRP: 162023010 | ITENAS Bandung</div>
+    </div>
+
+    <div class="grid">
+        <a href="Evaluasi1/index.html" class="task-item">
+            <div class="task-info">
+                <span class="task-name">Evaluasi Tengah Semester 1</span>
+                <span class="task-folder">/Evaluasi1/</span>
+            </div>
+            <span class="status-badge">UTAMA</span>
+        </a>
+
+        <a href="Tugas4/index.html" class="task-item">
+            <div class="task-info">
+                <span class="task-name">Tugas 4: Advanced Assets & Scripts</span>
+                <span class="task-folder">/Tugas4/</span>
+            </div>
+            <span class="status-badge">LATEST</span>
+        </a>
+
+        <a href="Tugas3/index.html" class="task-item">
+            <div class="task-info">
+                <span class="task-name">Tugas 3: JavaScript Interactivity</span>
+                <span class="task-folder">/Tugas3/</span>
+            </div>
+            <span class="status-badge">COMPLETED</span>
+        </a>
+
+        <a href="Tugas2/tugas2_162023010.html" class="task-item">
+            <div class="task-info">
+                <span class="task-name">Tugas 2: HTML Form & CSS</span>
+                <span class="task-folder">/Tugas2/</span>
+            </div>
+            <span class="status-badge">COMPLETED</span>
+        </a>
+
+        <a href="week3/kuisWeek3.html" class="task-item">
+            <div class="task-info">
+                <span class="task-name">Kuis Week 3: Dasar Web</span>
+                <span class="task-folder">/week3/</span>
+            </div>
+            <span class="status-badge">QUIZ</span>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2026 Adika Muhammad Haikal. Build with &hearts; for ITENAS.
+    </footer>
+</div>
+
+</body>
+</html>
