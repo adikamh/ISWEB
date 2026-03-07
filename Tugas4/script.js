@@ -81,7 +81,7 @@ $(document).ready(function() {
                     <p><strong>MISI HIDUP ANDA:</strong> Mengajarkan dunia bahwa kekuatan sejati bukan hanya tentang siapa yang paling keras bersuara, tapi siapa yang paling mampu mendengarkan. Anda ada untuk menciptakan harmoni di tengah kekacauan.</p>`
             },
             3: {
-                judul: "GARIS HIDUP 3: SANG PENGHIBUR ✨",
+                judul: "GARIS HIDUP 3: SANG PENGHIBUR ",
                 isi: `
                     <p><strong>RAMALAN GARIS HIDUP ANDA:</strong> Kreativitas Tak Terbatas Mengalir dalam Diri Anda</p>
                     <p>Anda terlahir dengan <strong>energi bintang</strong> yang gemerlap! Nomor 3 dalam garis hidup menandakan bahwa Anda adalah <strong>seniman sejati</strong> mampu mengubah kata-kata menjadi puisi, lukisan menjadi emosi, dan musik menjadi kenangan. Jiwa Anda seperti kembang api: penuh warna, bersemangat, dan selalu menarik perhatian.</p>
@@ -111,7 +111,7 @@ $(document).ready(function() {
                     <p><strong>MISI HIDUP ANDA:</strong> Membawa angin segar ke mana pun Anda pergi. Menginspirasi orang lain untuk berani bermimpi dan berani melangkah. Dunia butuh jiwa-jiwa bebas seperti Anda.</p>`
             },
             6: {
-                judul: "GARIS HIDUP 6: SANG PENJAGA ✨",
+                judul: "GARIS HIDUP 6: SANG PENJAGA ",
                 isi: `
                     <p><strong>RAMALAN GARIS HIDUP ANDA:</strong> Cinta adalah Bahasa Universal Anda</p>
                     <p>Anda terlahir dengan <strong>energi bumi yang hangat</strong> dan penuh kasih. Sebagai nomor 6, Anda adalah <strong>penjaga harmoni</strong> pelindung keluarga, penjaga persahabatan, dan pemelihara cinta. Jiwa Anda seperti pohon besar yang rindang: memberikan naungan bagi semua yang berteduh di bawahnya.</p>
