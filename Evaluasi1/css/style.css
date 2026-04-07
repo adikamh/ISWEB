@@ -1,0 +1,143 @@
+body {
+    background-image: url('../assets/Logo_itenas.jpg');
+    background-repeat: repeat;
+    background-size: 150px;
+    margin: 0;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.bingkai-luar {
+    background-color: #6d3d33;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.wadah-utama {
+    width: 1000px;
+    background-color: #d89b3d;
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+}
+
+.bagian-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px solid #000;
+}
+
+.baris-banner {
+    height: 150px;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    border-right: 1px solid #000;
+}
+
+.tata-letak-utama {
+    display: flex;
+    min-height: 200px; 
+}
+
+.bagian-samping {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #4b2c9b;
+}
+
+.item-navigasi {
+    border-bottom: 1px solid #4b2c9b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bagian-navigasi a {
+    color: #4b2c9b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.area-konten {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.footer {
+    background-color: #f7a01c;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #000;
+    font-size: 14px;
+}
+
+.wadah-menu-flex {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.tabel-menu {
+    border-collapse: collapse;
+    background-color: #ffcc00;
+    border: 1px solid #888;
+}
+
+.tabel-menu th, .tabel-menu td {
+    border: 1px solid #888;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.tabel-menu th, 
+.tabel-menu td {
+    background-color: #ffcc00;
+    text-align: left;
+}
+
+.rata-kanan-hasil {
+    text-align: right !important;
+    padding-right: 15px !important;
+}
+
+.card-reset-terpisah {
+    background-color: #f0f0f0;
+    border: 1px solid #888;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.tabel-menu input {
+    width: 120px;
+    padding: 3px;
+    border: 1px solid #888;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.btn-reset-menu {
+    background-color: #000;
+    color: #ffcc00;
+    border: 1px solid #fff;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.btn-shout, .btn-hitung, .btn-reset {
+    background-color: #000;
+    color: #f7a01c;
+    border: 1px solid #fff;
+    padding: 2px 20px;
+    cursor: pointer;
+}
