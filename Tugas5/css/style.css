@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+td {
+  border: 2px solid #444;
+  padding: 15px;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+tr:nth-child(1) td:hover {
+  background-color: red;
+  color: white;
+}
+tr:nth-child(2) td:hover {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+}
+tr:nth-child(3) td:hover {
+  background-color: green;
+  color: white;
+}
+tr:nth-child(4) td:hover {
+  background-color: blue;
+  color: white;
+}
+tr:nth-child(5) td:hover {
+  background-color: brown;
+  color: white;
+}
